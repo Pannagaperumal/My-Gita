@@ -1,53 +1,36 @@
 # Miscellaneous
 *.class
 *.log
+*.lock
+*.pot
 *.pyc
+*.swo
 *.swp
+*~
 .DS_Store
 .atom/
 .buildlog/
 .history
 .svn/
-migrate_working_dir/
 
 # Flutter
+.dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
 .pub-cache/
-.pub/
 /build/
-
-# Android
-/android/gradle*
-/android/local.properties
-/android/.gradle
-/android/app/build
-/android/app/src/main/assets/flutter_assets/
-
-# iOS
 /ios/Pods/
+/ios/Flutter/ephemeral/
+/ios/.symlinks/
 /ios/Flutter/App.framework
-/ios/Flutter/flutter_assets/
-/ios/Flutter/.last_build_id
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Generated.xcconfig
 /ios/Runner/GeneratedPluginRegistrant.h
 /ios/Runner/GeneratedPluginRegistrant.m
-/ios/Runner.xcworkspace/contents.xcworkspacedata
-/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
-
-# Intellij
-.idea/
-*.iml
-
-# VSCode
-.vscode/
-
-# Mac
-.DS_Store
-
-# Build
-/build/
-
-# Assets
-/assets/icon/icon.png
+/ios/Flutter/flutter_assets/
+/android/.gradle/
+/android/app/build/
+/android/build/
+/android/local.properties
+/android/app/google-services.json
